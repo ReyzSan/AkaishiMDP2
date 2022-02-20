@@ -3,20 +3,17 @@ let fetch = require('node-fetch')
 let botol = global.botwm
 let pp = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=Premium'
 let info = `
-╭═══ *〘 BUY PREMIUM 〙*
-║ ┅ ๑————————————๑                                         
-║┊ ⌲ *Buy* = _5k/minggu (7 Hari)_
-║┊ ⌲ *Buy* = _15k/bulan (1 bulan)_
-║┊ ⌲ *Buy* = _35k/tahun (12 bulan)_
-║┊ ⌲ *VIP* = _50k/Permanent_
+╭═══ *〘 BUY PREMIUM 〙*                                      
+┊ ⌲ *Buy* = _5k/minggu (7 Hari)_
+┊ ⌲ *Buy* = _10k/bulan (1 bulan)_
+┊ ⌲ *Buy* = _35k/tahun (12 bulan)_
+┊ ⌲ *VIP* = _50k/Permanent_
 ╰═ ┅ ═══════
-
 ╭═══ *〘 PAKET HEMAT 〙*
-║ ┅ ๑————————————๑
-║┊ ⌲ _20k (Sewa 1 bulan, premium 1 Bulan)_
-║┊ ⌲ _30k (Sewa 2 bulan, premium 1.5 bulan)_
-║┊ ⌲  _45k (8 Bulan sewa, 5 Bulan premium)_
-║┊ ⌲  _65k (all permanent)_
+┊ ⌲ _15k (Sewa 1 bulan, premium 1 Bulan)_
+┊ ⌲ _25k (Sewa 2 bulan, premium 1.5 bulan)_
+┊ ⌲  _60k (8 Bulan sewa, 5 Bulan premium)_
+┊ ⌲  _100k (Seumur Hidup Bot)_
 ╰═ ┅ ═══════
 
 ༅ _*KEUNTUNGAN USER PREMIUM*_
@@ -34,7 +31,7 @@ let info = `
 
 ◪ *Jika Minat Hubungi owner kami*
 ◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT_
+_https://chat.whatsapp.com/H2YpbQsOdwn8GLDmuZzRW2_
 
 ▌│█║▌║▌║║▌║▌║█│▌
 ▌│█║▌║▌║║▌║▌║█│▌

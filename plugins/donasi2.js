@@ -3,16 +3,14 @@ const fs = require('fs')
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
 
-let str = `››╭─〘 *Donasi* 〙
-╭╡
-│┝‷✧ *Pulsa:* 6285712420674
-│┝‷✧ *Dana:* 6285712420674
-│┝‷✧ *Linkaja:* 6285712420674
-│┝‷✧ *Gopay:* 6285712420674
-│┝‷✧ *Ovo:* 6285712420674
-│╰───···─────
-│⁺◛˖ Ingin Donasi? Chat nomor dibawah
-╰──────────···───╮`
+let str = `╭─〘 *Donasi* 〙
+│❒ *Pulsa:* 6285158338027
+│❒ *Gopay:* 6285158338027
+│❒ *Saweria:* https://saweria.co/AkaishiMD
+│❒ Ingin Donasi? Chat
+│wa.me/6285158338027?text=kak+mau+donasi
+╰──────────···───╮
+▌│█║▌║▌║║▌║▌║█│▌`
 let name = await conn.getName(m.sender)
 
 let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}

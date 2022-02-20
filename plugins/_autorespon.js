@@ -17,7 +17,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Kanna lagi cape (・へ・)' : banned ? 'kamu dibanned' : 'Kanna disini （ ・∀・）',
+                isBanned ? 'Akaishi lagi cape (・へ・)' : banned ? 'kamu dibanned' : 'Akaishi disini （ ・∀・）',
                 '',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : '⋮☰ Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
@@ -32,13 +32,11 @@ handler.all = async function (m, { isBlocked }) {
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, logo, `
 ╭━━〔 List Sewa〕━✧
-│⬦ *1 Bulan* :      *Rp 15000*
+│⬦ *1 Bulan* :      *Rp 10000*
 │⬦ *2 bulan* :      *Rp 20000*
-│⬦ *8 Bulan* :      *Rp 35000*
-│⬦ *12 Bulan* :      *Rp 45000*
+│⬦ *8 Bulan* :      *Rp 50000*
+│⬦ *12 Bulan* :      *Rp 75000*
 ┝━━〔Payment〕━✧
-│⬦ Ovo
-│⬦ Dana
 │⬦ Gopay
 │⬦ Saweria
 │⬦ Pulsa
@@ -73,7 +71,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', '
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Im Kannabot 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
+        await this.setStatus(`Im AkaishiMD || Aktif selama ${uptime} ||  User : ${Object.keys(global.db.data.users).length} User ||  Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
